@@ -2,15 +2,15 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package les3;
+package lec5_Loops;
 
 import java.util.Scanner;
-
-public class sl15 {
+public class b4_while {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        System.out.print("Enter an integer number: ");
-        int n = scanner.nextInt();
-        System.out.print("Integer number = " + n);
+        int num = 1;
+        while(num >= 200){
+            System.out.print(num);
+            num = num * 2;
+        }
     }
 }
